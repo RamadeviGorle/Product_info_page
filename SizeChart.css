@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Size-Main{
+    display: none;
+}
+
+@media screen and (min-width:300px) and (max-width:450px) {
+
+.Size-Main{
+    display: block;
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: #f5f5f6;
+}
+.sub-main{
+    /* border: 2px solid blue; */
+    /* padding: 0.3rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.top-part{
+    /* padding: 0.3rem; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.crossicon{
+    padding-left: 0.6rem;
+    padding-top: 0.4rem;
+}
+.Dress-size{
+    padding-left: 0.6rem;
+   /* border: 2px solid yellow;  */
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.pic-desc{
+    /* border: 2px solid orange;  */
+    width: 72%;
+}
+.pic-desc>h5{
+    font-size: 1rem;
+    font-weight: 650;
+    color: #282c3f;
+}
+.pic-desc>p{
+    font-size: 0.82rem;
+    color: #535766;
+    font-weight: 400;
+}
+.costs{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: -0.5rem;
+}
+#Actualprice{
+    font-size: 1rem;
+    font-weight: 600;
+}
+#Mrp-Price{
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #94969f;
+}
+#Discount-Price{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #ff5a5a;
+    /* color: #ff3f6c; */
+    /* color: #282c3f;  */
+}
+/* Nishitha code */
+/* .containersub{
+    width:100%;
+    height:3rem;
+    border:2px solid #000;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color: red;
+}
+.subconatinerborder{
+   height:60%;    
+   border-bottom:2px solid #ff3f6c;
+}
+.subconatinerborder2{
+    height: 60%;
+    padding-top:2rem;
+    border-bottom:2px solid #ff3f6c;
+} */
+/* end */
+
+.Size-charts{
+    border: 1px solid #eaeaec;
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    padding: 0.8rem;
+   
+}
+.charts{
+    display: flex;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.size1{
+    /* border: 2px solid #ff3f6c ; */
+    height: 100%;
+
+}
+.underline{
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;   
+}
+.underline1{
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;
+}
+#sct{
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #ff3f6c;
+    
+}
+#htm{
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: #282c3f;
+}
+.Btns{
+    /* border: 2px solid yellow; */
+    padding: 0.6rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.Btns>button{
+   border: 1px solid #eaeaec;
+   width: 4rem;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* nishi */
+.democolor{
+    background-color:#282c3f;
+    width: 1.5rem;
+    color:#ffff;
+    border-radius:100%;
+    
+    
+    }
+/* table1 */
+
+.table{
+    /* margin: 0.4rem; */
+    border: 1px solid #eaeaec; 
+}
+.size-heading{
+    
+    border: 1px solid;
+    font-size: 0.9rem;
+    border: 1px solid #eaeaec;
+    text-align: center;
+    color: #424553;
+    /* font-weight: 600; */
+}
+.size-heading1{
+    border: 1px solid #eaeaec;
+    text-align: center; 
+    font-size: 0.95rem;
+    color: #424553;
+    /* margin-left: 0.5rem; */
+}
+.dispalyradio{
+    /* border: 1px solid #eaeaec ; */
+    display: flex;
+    color: #424553;
+    margin-left: 0.4rem;
+}
+.dispalyradio>span{
+    color: #424553;
+}
+/* table 2 */
+
+.Seller{
+    padding: 0.6rem;
+    background-color: #fff;
+}
+.Seller>h5{
+    font-size: 1rem;
+}
+.colorpink{
+    font-size: 1rem;
+    color: #ff3f6c;
+}
+.Measure{
+    background-color: #fff;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Measure>h5{
+    width: 90%;
+    font-size: 1rem;
+}
+.Measure>img{
+    width: 100%;
+}
+}   
